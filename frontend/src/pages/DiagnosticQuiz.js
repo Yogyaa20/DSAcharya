@@ -48,6 +48,7 @@ const DiagnosticQuiz = ({ currentUser, logoutUser }) => {
     if (urlTopic && step === 1 && selectedTopics.length > 0 && !quizId && !loading) {
       handleStartQuiz();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [urlTopic]);
 
   if (!currentUser) return null;
