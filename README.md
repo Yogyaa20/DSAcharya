@@ -128,3 +128,4 @@ To switch from SQLite to PostgreSQL, use the provided `database_schema.sql` file
 ---
 
 **Status**: ✅ Fully functional MVP ready for use!
+.
