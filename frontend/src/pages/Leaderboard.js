@@ -225,6 +225,7 @@ const Leaderboard = ({ currentUser, logoutUser }) => {
   useEffect(() => {
     if (!currentUser) { navigate('/'); return; }
     initPage();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentUser]);
 
   const initPage = async () => {
