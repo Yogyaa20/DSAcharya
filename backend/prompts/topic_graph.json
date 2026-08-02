@@ -1,0 +1,188 @@
+{
+    "topics": [
+        {
+            "id": "basics_syntax",
+            "name": "Language basics & syntax",
+            "prerequisites": [],
+            "difficulty": "beginner"
+        },
+        {
+            "id": "time_space_complexity",
+            "name": "Time & space complexity (Big-O)",
+            "prerequisites": [
+                "basics_syntax"
+            ],
+            "difficulty": "beginner"
+        },
+        {
+            "id": "arrays",
+            "name": "Arrays",
+            "prerequisites": [
+                "time_space_complexity"
+            ],
+            "difficulty": "beginner"
+        },
+        {
+            "id": "strings",
+            "name": "Strings",
+            "prerequisites": [
+                "arrays"
+            ],
+            "difficulty": "beginner"
+        },
+        {
+            "id": "searching",
+            "name": "Searching (linear, binary)",
+            "prerequisites": [
+                "arrays"
+            ],
+            "difficulty": "beginner"
+        },
+        {
+            "id": "sorting",
+            "name": "Sorting algorithms",
+            "prerequisites": [
+                "arrays"
+            ],
+            "difficulty": "beginner"
+        },
+        {
+            "id": "two_pointers",
+            "name": "Two pointers & sliding window",
+            "prerequisites": [
+                "arrays",
+                "strings"
+            ],
+            "difficulty": "beginner"
+        },
+        {
+            "id": "recursion",
+            "name": "Recursion basics",
+            "prerequisites": [
+                "time_space_complexity"
+            ],
+            "difficulty": "intermediate"
+        },
+        {
+            "id": "backtracking",
+            "name": "Backtracking",
+            "prerequisites": [
+                "recursion"
+            ],
+            "difficulty": "intermediate"
+        },
+        {
+            "id": "linked_lists",
+            "name": "Linked lists",
+            "prerequisites": [
+                "recursion"
+            ],
+            "difficulty": "intermediate"
+        },
+        {
+            "id": "stacks_queues",
+            "name": "Stacks & queues",
+            "prerequisites": [
+                "linked_lists"
+            ],
+            "difficulty": "intermediate"
+        },
+        {
+            "id": "hashing",
+            "name": "Hashing (maps & sets)",
+            "prerequisites": [
+                "arrays",
+                "strings"
+            ],
+            "difficulty": "intermediate"
+        },
+        {
+            "id": "trees",
+            "name": "Trees (binary trees, BST)",
+            "prerequisites": [
+                "recursion",
+                "linked_lists"
+            ],
+            "difficulty": "intermediate"
+        },
+        {
+            "id": "heaps",
+            "name": "Heaps & priority queues",
+            "prerequisites": [
+                "trees"
+            ],
+            "difficulty": "intermediate"
+        },
+        {
+            "id": "tries",
+            "name": "Tries",
+            "prerequisites": [
+                "trees",
+                "hashing"
+            ],
+            "difficulty": "intermediate"
+        },
+        {
+            "id": "graphs_basics",
+            "name": "Graphs (BFS, DFS)",
+            "prerequisites": [
+                "trees",
+                "stacks_queues"
+            ],
+            "difficulty": "advanced"
+        },
+        {
+            "id": "graphs_advanced",
+            "name": "Graphs (shortest path, MST)",
+            "prerequisites": [
+                "graphs_basics",
+                "heaps"
+            ],
+            "difficulty": "advanced"
+        },
+        {
+            "id": "greedy",
+            "name": "Greedy algorithms",
+            "prerequisites": [
+                "sorting",
+                "heaps"
+            ],
+            "difficulty": "advanced"
+        },
+        {
+            "id": "dp_basics",
+            "name": "Dynamic programming (1D)",
+            "prerequisites": [
+                "recursion",
+                "backtracking"
+            ],
+            "difficulty": "advanced"
+        },
+        {
+            "id": "dp_advanced",
+            "name": "Dynamic programming (2D & advanced)",
+            "prerequisites": [
+                "dp_basics",
+                "graphs_basics"
+            ],
+            "difficulty": "advanced"
+        },
+        {
+            "id": "bit_manipulation",
+            "name": "Bit manipulation",
+            "prerequisites": [
+                "basics_syntax"
+            ],
+            "difficulty": "intermediate"
+        },
+        {
+            "id": "system_design_intro",
+            "name": "System design basics",
+            "prerequisites": [
+                "graphs_advanced",
+                "dp_advanced"
+            ],
+            "difficulty": "advanced"
+        }
+    ]
+}
